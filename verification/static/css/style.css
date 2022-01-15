@@ -1,0 +1,100 @@
+
+/* CSS reset */
+body {
+  background-image: url(../../img/3.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* Custom */
+
+
+.typeahead,
+.tt-query,
+.tt-hint {
+  width:auto;
+  height: auto;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.typeahead {
+  background-color: #fff;
+  max-width: 330px;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px #e08b27;
+     -moz-box-shadow: inset 0 1px 1px #e08b27;
+          box-shadow: inset 0 1px 1px #e08b27;
+}
+
+.tt-hint {
+  color: #e08b27;
+}
+
+.tt-dropdown-menu {
+  max-width: 330px;
+  height: auto;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 5px 10px #e08b27;
+     -moz-box-shadow: 0 5px 10px #e08b27;
+          box-shadow: 0 5px 10px #e08b27;	  
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #e08b27;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
